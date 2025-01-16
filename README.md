@@ -28,3 +28,24 @@ Es 6 modules
 
 :- Importing data.json file.
 :- module.exports is an empty object.
+
+
+# some more about modules
+- when require("./path ) is called it returns the module.exports object. All the codes of the module is wraped inside a function . (IIFE - immediate invoked function expression).
+- (function(){
+    // code here
+})();
+- immerdiate invoke the function 
+- keep variables and function safe 
+# how are variables and function private in different modules ?
+- through IIFE and require(statement).
+
+# how do you get access to module.exports ?
+- through node js parameter (module) as a parameter to the IIFE.
+
+# require(./path)
+1. resolving the module 
+2. loading the module 
+3. wrap inside IIFE
+4. evaluation 
+5. caching
