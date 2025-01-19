@@ -63,4 +63,15 @@ Es 6 modules
 - asynchronous task is not directly executed . 
 - it uses libuv for i/o operations .
 
+# libuv
+- libuv is a c library.
+- it is used for i/o operations.
+- it is used for asynchronous operations.
+
+# blocking i/o 
+- blocking i/o is a synchronous i/o operation.
+- it is a blocking operation.
+- it will block the maion thread until the operation is completed.
+
+
 
