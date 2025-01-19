@@ -49,3 +49,18 @@ Es 6 modules
 3. wrap inside IIFE
 4. evaluation 
 5. caching
+
+# Syncronous and asynchronous 
+- synchronous: the code is executed line by line.
+- task is executed immediately .
+
+- asynchronous: the code is executed line by line but the execution is paused and resumed at a later time.
+- task is executed in the background.
+# how to make a function asynchronous ?
+- using callbacks.
+- using promises.
+- using async/await.
+- asynchronous task is not directly executed . 
+- it uses libuv for i/o operations .
+
+
