@@ -73,5 +73,24 @@ Es 6 modules
 - it is a blocking operation.
 - it will block the maion thread until the operation is completed.
 
+# phases of code compilation
+1. lexical analysis
+2. syntax analysis
+3. semantic analysis
+4. code generation
+5. optimization
+6. code emission
+
+- lexical analysis( tokenization) -> syntax analysis(abstract syntax tree) -> semantic analysis ->ignition interpreter -> bytecode -> execution.
+
+- ignition interpreter -> Turbofan compiler -> optimized machine code ->execution. 
+
+# deep about libuv 
+. event loop 
+. thread pool
+. callback queue
 
 
+# event loop 
+- event loop is a mechanism to handle asynchronous operations`
+- it willl mange the task in callback queue and put the task in call stack in correct time and correct order. 
