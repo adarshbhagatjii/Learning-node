@@ -94,3 +94,13 @@ Es 6 modules
 # event loop 
 - event loop is a mechanism to handle asynchronous operations`
 - it willl mange the task in callback queue and put the task in call stack in correct time and correct order. 
+
+# ThreadPool
+- thread pool is a mechanism to handle multiple tasks concurrently.
+- its defalt size is 4 bytecode.
+we can change the size of thread pool using process.env.UV_HTREADPOOL_SIZE = 4 ; function.
+
+# Is node js is a single threaded or multithreaded. 
+- node js is a single threaded but it can handle multiple tasks concurrently using event loop and thread pool.
+- it can handle multiple tasks concurrently using libuv.
+
