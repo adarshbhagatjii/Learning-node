@@ -104,3 +104,5 @@ we can change the size of thread pool using process.env.UV_HTREADPOOL_SIZE = 4 ;
 - node js is a single threaded but it can handle multiple tasks concurrently using event loop and thread pool.
 - it can handle multiple tasks concurrently using libuv.
 
+# http server 
+- http server is a server that can handle http requests.
