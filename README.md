@@ -106,3 +106,15 @@ we can change the size of thread pool using process.env.UV_HTREADPOOL_SIZE = 4 ;
 
 # http server 
 - http server is a server that can handle http requests.
+
+# learned about database 
+- database is a collection of data.
+- database is a collection of data that is stored in a structured way and can be accessed and manipulated 
+
+# learned about mongoDB 
+perforning operatons on mongodb like insert data, find data, update data, delete data 
+- insert data: db.collection.insertOne()
+- find data: db.collection.find()
+- find data: db.collection.updateOne()
+- find data: db.collection.deleteOne()
+
