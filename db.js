@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb');
 
 // Connection URL
 
-const URL = "mongodb+srv://jaspiyush01:piyush08012004@nodelearning.v85hq.mongodb.net/";
+const URL = "mongodb+srv://<yourID>:<password>@nodelearning.v85hq.mongodb.net/";
 const client = new MongoClient(URL);
 const dbName = "hellonode";
 
